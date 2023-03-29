@@ -12,3 +12,25 @@ body{
 }
 
 /* ---------------------------- Main Container -------------------------------------------- */
+
+.main{
+    display: flex;
+}
+
+.main-content{
+    width: 55%;
+}
+
+.main-image{
+    position: relative;
+    width: 45%;
+}
+
+.cover-img{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+    width: 100%;
+    object-fit: cover;
+}
