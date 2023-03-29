@@ -23,57 +23,107 @@
                         talent?
                     </p>
                     <form action="" class="form">
-                        <div class="form-group">
-                            <div class="img-group"></div>
-                            <label for="radio-1" class="form-label label-title"
-                                >I’m a remote worker</label
-                            >
-                            <label for="radio-1" class="form-label label-desc"
-                                >I’m an employee looking for a remote job
-                            </label>
-                            <input
-                                type="radio"
-                                class="form-input"
-                                name="radio"
-                                id="radio-1"
-                                value="remote-worker"
-                            />
-                        </div>
-                        <div class="form-group">
-                            <div class="img-group"></div>
-                            <label for="radio-2" class="form-label"
-                                >I want to hire employees</label
-                            >
-                            <label for="radio-2" class="form-label"
-                                >I’m on employer hiring remote talent
-                            </label>
-                            <input
-                                type="radio"
-                                class="form-input"
-                                name="radio"
-                                id="radio-2"
-                                value="hire-employees"
-                            />
-                        </div>
+                        <label for="radio-1" class="form-group active">
+                            <div class="img-group">
+                                <img
+                                    src="./assets/img/avatar-01.jpg"
+                                    alt="avatar-01"
+                                    class="avatar"
+                                />
+                                <img
+                                    src="./assets/img/avatar-02.jpg"
+                                    alt="avatar-02"
+                                    class="avatar"
+                                />
+                                <img
+                                    src="./assets/img/avatar-03.jpg"
+                                    alt="avatar-03"
+                                    class="avatar"
+                                />
+                            </div>
+
+                            <div class="desc-block">
+                                <p class="label-title">I’m a remote worker</p>
+                                <p class="label-desc">
+                                    I’m an employee looking for a remote job
+                                </p>
+                            </div>
+
+                            <div class="form-input">
+                                <input
+                                    type="radio"
+                                    class="radio"
+                                    name="radio"
+                                    id="radio-1"
+                                    value="remote-worker"
+                                    checked="checked"
+                                />
+                                <span class="checkmark"></span>
+                            </div>
+                        </label>
+                        <label for="radio-2" class="form-group">
+                            <div class="img-group">
+                                <img
+                                    src="./assets/img/avatar-04.jpg"
+                                    alt="avatar-04"
+                                    class="avatar"
+                                />
+                                <img
+                                    src="./assets/img/avatar-05.jpg"
+                                    alt="avatar-05"
+                                    class="avatar"
+                                />
+                                <img
+                                    src="./assets/img/avatar-06.jpg"
+                                    alt="avatar-06"
+                                    class="avatar"
+                                />
+                            </div>
+
+                            <div class="desc-block">
+                                <p class="label-title">
+                                    I want to hire employees
+                                </p>
+                                <p class="label-desc">
+                                    I’m on employer hiring remote talent now
+                                </p>
+                            </div>
+
+                            <div class="form-input">
+                                <input
+                                    class="radio"
+                                    type="radio"
+                                    name="radio"
+                                    id="radio-2"
+                                    value="hire-employees"
+                                />
+                                <span class="checkmark"></span>
+                            </div>
+                        </label>
                     </form>
-                    <span class="alternative">
+                    <div class="alternative">
                         Already have an account ?
                         <a href="#!" class="another">Sign in</a>
-                    </span>
+                    </div>
                 </section>
             </div>
             <div class="main-image">
-                <img
-                    src="./assets/img/cover-image.png"
-                    alt=""
-                    class="cover-img"
-                />
-                <h2 class="image-desc">
-                    abc.com is the best place to find remote talent. We’ve been
-                    super impress by the quality of applicants.
-                </h2>
-                <span class="author">Madhushan sasanka</span>
-                <p class="position">CEO, abc.com</p>
+                <div class="main-image-content">
+                    <img
+                        src="./assets/img/cover-image.png"
+                        alt=""
+                        class="cover-img"
+                    />
+                    <h2 class="cover-image-desc">
+                        abc.com is the best place to find remote talent. We’ve
+                        been super impress by the quality of applicants.
+                    </h2>
+                    <div class="line-block">
+                        <div class="line"></div>
+                        <p class="author">Madhushan sasanka</p>
+                    </div>
+                    <p class="position">CEO, abc.com</p>
+                </div>
             </div>
         </main>
         <script src="./assets/js/script.js"></script>

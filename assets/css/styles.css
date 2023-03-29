@@ -11,6 +11,11 @@ body{
     font-family: "Poppins",sans-serif;
 }
 
+a{
+    color:#000;
+    text-decoration: none;
+}
+
 /* ---------------------------- Main Container -------------------------------------------- */
 
 .main{
@@ -26,6 +31,10 @@ body{
     width: 45%;
 }
 
+.main-image-content{
+    margin: 170px 75px 0;
+}
+
 .cover-img{
     position: absolute;
     top:0;
@@ -34,3 +43,212 @@ body{
     width: 100%;
     object-fit: cover;
 }
+
+.cover-image-desc{
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 2.25;
+    color: #000000;
+}
+
+.line-block{
+    display: flex;
+    align-items: center;
+    margin-top: 49px;
+}
+
+.line{
+    display: inline-block;
+    width: 25.02px;
+    height: 0px;
+    border: 1px solid #000000;
+}
+
+.author{
+    margin-left: 11px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.position{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 1.6rem;
+    letter-spacing: 0.02em; 
+    color: #8C8C8C;
+}
+
+/* Left */
+
+.body{
+    margin:247px 113px 0;
+}
+
+.start{
+    text-align: center;
+    font-weight: 400;
+    font-size: 2rem;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 4rem;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.body .desc{
+    margin-top: 1px;
+    font-weight: 300;
+    font-size: 1.6rem;
+    letter-spacing: 0.02em;
+    color: #8D8D8D;
+    text-align: center;
+}
+
+.form{
+    margin-top: 102px;
+}
+
+.form-group + .form-group{
+    margin-top: 28px;
+}
+
+.form-group{
+    display: flex;
+    align-items: center;
+    width: 570px;
+    height: 86px;
+    border: 2px solid #E5E5E5;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.img-group{
+    flex-grow: 1;
+    padding: 20px 0px 20px 25px;
+}
+
+.img-group .avatar{
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: -5px;
+}
+
+.avatar:nth-child(2){
+    transform: scale(1.3);
+}
+
+.desc-block{
+    flex-grow: 3;
+}
+
+
+.form-input{
+    flex-grow: 1;
+    position: relative;
+}
+
+.label-title{
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.label-desc{
+    font-weight: 300;
+    font-size: 1.6rem;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.alternative{
+    text-align: center;
+    margin-top: 84px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.alternative .another{
+    font-weight: 500;
+    font-size: 2rem;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.form-input .desc{
+    margin-left: 21px;
+    max-width: 363px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.57;
+    letter-spacing: 0.25px;
+    color: #000000;
+    position: relative;
+}
+
+.form-input input{
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+
+
+.checkmark {
+    position: absolute;
+    top: -20px;
+    left: -5px;
+    width: 25px;
+    height: 25px;
+    background: #FAFDFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 50%;
+  }
+
+  
+  .form-input input:checked ~ .checkmark {
+    background-color: #000;
+  }
+  
+  .form-input ~ input:checked{
+    border:none
+  }
+
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .form-input input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .form-input .checkmark:after {
+    left: 8px;
+    top: 4px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .form-group.active{
+    border: 2px solid #000000;
+  }
